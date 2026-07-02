@@ -3,14 +3,16 @@ nav {
     justify-content: center;
     gap: 40px;
     padding: 20px;
+    border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
 
 }
 
 nav a {
     text-decoration: none;
-    color: #111;
-    font-weight: bold;
+    color: #222;
+    font-size: .9rem;
+    text-transform: uppercase;
 }
 
 nav a:hover {

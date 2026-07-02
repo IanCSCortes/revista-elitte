@@ -1,17 +1,24 @@
 import './Header.css';
 
-function Header() {
+import { FiMenu} from "react-icons/fi";
+import { FiSearch } from "react-icons/fi";
 
+function Header() {
     return (
-        <header>
-            <button>☰</button>
+
+        <header className="header">
+            <button className="icon-button">
+                <FiMenu />
+            </button>
 
             <div className="logo">
                 <h1>REVISTA ELITTE</h1>
-                <p>REVISTA DIGITAL</p>
+                <span>MODA • NEGÓCIOS • CULTURA</span>
             </div>
 
-            <button>🔍</button>
+            <button className="icon-button">
+                <FiSearch />
+            </button>
         </header>
     );
     
