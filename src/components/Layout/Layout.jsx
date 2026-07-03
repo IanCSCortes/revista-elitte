@@ -1,4 +1,7 @@
 import "./Layout.css";
+import Header from "../Header/Header";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 function Layout ({ children }) {
 
@@ -6,7 +9,14 @@ function Layout ({ children }) {
 
         <div className="layout">
 
-            {children}
+            <Header />
+            <Navbar />
+
+            <main>
+                {children}
+            </main>
+
+            <Footer />
 
         </div>
 
