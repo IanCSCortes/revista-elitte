@@ -1,4 +1,5 @@
 import "./FeaturedSection.css";
+import LargeArticleCard from "../LargeArticleCard/LargeArticleCard";
 
 function FeaturedSection() {
     return(
@@ -6,6 +7,10 @@ function FeaturedSection() {
         <section className="featured-section">
 
             <div className="featured-left">
+
+                <LargeArticleCard />
+
+                <LargeArticleCard />
 
             </div>
 
