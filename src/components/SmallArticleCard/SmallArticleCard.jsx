@@ -1,27 +1,27 @@
 import "./SmallArticleCard.css";
 
-function SmallArticleCard() {
+function SmallArticleCard({ article }) {
     return(
 
         <article className="small-card">
 
             <img
-                src="https://picsum.photos/150/150"
-                alt="Matéria"
+                src={article.image}
+                alt={article.title}
             />
 
             <div className="small-card-content">
 
                 <span className="small-card-category">
-                    NEGÓCIOS
+                    {article.category}
                 </span>
 
-                <a className="small-card-title">
-                    Como a IA está mudando o mercado
-                </a>
+                <h3 className="small-card-title">
+                    {article.title}
+                </h3>
 
                 <span className="small-card-author">
-                    por Ian Cortes
+                    por {article.author}
                 </span>
 
             </div>

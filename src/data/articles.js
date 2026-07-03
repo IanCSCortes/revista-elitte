@@ -1,3 +1,9 @@
+import hero from "../assets/images/hero.jpg";
+import cafe from "../assets/images/cafe.jpg";
+import beleza from "../assets/images/beleza.jpg";
+import negocios from "../assets/images/negocios.jpg";
+
+
 const articles = {
 
     featured: [
@@ -8,7 +14,7 @@ const articles = {
             category: "NEGÓCIOS",
             title: "Como a Inteligência Artificial está mudando o mercado",
             author: "Ian Cortes",
-            image: "http://picsum.photos/500/350?1"
+            image: negocios
 
         },
 
@@ -18,7 +24,7 @@ const articles = {
             category: "TECNOLOGIA",
             title: "React continua dominando o mercado Front-End",
             author: "Revista Elitte",
-            image: "http://picsum.photos/500/350?2"
+            image: beleza
 
         }
 
@@ -32,7 +38,7 @@ const articles = {
             category: "LIFESTYLE",
             title: "5 hábitos para aumentar sua produtividade",
             author: "Natália Viana",
-            image: "http://picsum.photos/150/150?1"
+            image: cafe
 
         },
 
@@ -42,7 +48,7 @@ const articles = {
             category: "NEGÓCIOS",
             title: "Empresas brasileiras investem cada vez mais em IA",
             author: "Revista Elitte",
-            image: "http://picsum.photos/150/150?2"
+            image: hero
 
         }
 

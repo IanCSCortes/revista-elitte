@@ -25,9 +25,13 @@ function FeaturedSection() {
 
             <div className="featured-right">
 
-                <SmallArticleCard />
+                {article.side.map((article) => (
 
-                <SmallArticleCard />
+                    <SmallArticleCard
+                        key={article.id}
+                        article={article}
+                    />
+                ))};
 
             </div>
 
