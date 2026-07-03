@@ -9,9 +9,23 @@ function FeaturedSection() {
 
             <div className="featured-left">
 
-                <LargeArticleCard />
+                <LargeArticleCard 
+                
+                    category="Negócios"
+                    title="Como a IA está mudando o mercado"
+                    author="Ian Cortes"
+                    image="https://picsum.photos/500/350"
 
-                <LargeArticleCard />
+                />
+
+                <LargeArticleCard 
+                
+                    category="Tecnologia"
+                    title="As tendências para o desenvolvimento web em 2026"
+                    author="Revista Elitte"
+                    image="https://picsum.photos/501/350"
+                
+                />
 
             </div>
 

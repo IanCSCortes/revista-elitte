@@ -1,25 +1,30 @@
 import "./LargeArticleCard.css";
 
-function LargeArticleCard() {
+function LargeArticleCard(
+   {category,
+    title,
+    author,
+    image}
+) {
     return(
 
         <article className="large-card">
 
             <img
-                src="https://picsum.photos/500/350"
+                src={image}
                 alt="Matéria"
             />
 
             <span className="large-card-category">
-                NEGÓCIOS
+                {category}
             </span>
 
             <h3 className="large-card-title">
-                Como a Inteligência Artificial está mudando o mercado
+                {title}
             </h3>
 
             <span className="large-card-author">
-                por Ian Cortes
+                por {author}
             </span>
 
         </article>
