@@ -1,5 +1,6 @@
 import "./FeaturedSection.css";
 import LargeArticleCard from "../LargeArticleCard/LargeArticleCard";
+import SmallArticleCard from "../SmallArticleCard/SmallArticleCard";
 
 function FeaturedSection() {
     return(
@@ -15,6 +16,10 @@ function FeaturedSection() {
             </div>
 
             <div className="featured-right">
+
+                <SmallArticleCard />
+
+                <SmallArticleCard />
 
             </div>
 
