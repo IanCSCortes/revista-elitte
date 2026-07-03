@@ -1,6 +1,7 @@
 import "./FeaturedSection.css";
 import LargeArticleCard from "../LargeArticleCard/LargeArticleCard";
 import SmallArticleCard from "../SmallArticleCard/SmallArticleCard";
+import article from "../../data/articles";
 
 function FeaturedSection() {
     return(
@@ -9,23 +10,19 @@ function FeaturedSection() {
 
             <div className="featured-left">
 
-                <LargeArticleCard 
-                
-                    category="Negócios"
-                    title="Como a IA está mudando o mercado"
-                    author="Ian Cortes"
-                    image="https://picsum.photos/500/350"
+                {article.featured.map((articles) => (
 
-                />
+                    <LargeArticleCard 
 
-                <LargeArticleCard 
-                
-                    category="Tecnologia"
-                    title="As tendências para o desenvolvimento web em 2026"
-                    author="Revista Elitte"
-                    image="https://picsum.photos/501/350"
-                
-                />
+                        key={articles.id}
+                        category={articles.category}
+                        title={articles.title}
+                        author={articles.author}
+                        image={articles.image}
+
+                    />
+
+                ))}
 
             </div>
 
