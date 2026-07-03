@@ -31,11 +31,11 @@ function FeaturedSection() {
                         key={article.id}
                         article={article}
                     />
-                ))};
+                ))}
 
             </div>
 
-        </section>
+        </section> 
 
     );
 
