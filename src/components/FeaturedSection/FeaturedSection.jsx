@@ -10,15 +10,12 @@ function FeaturedSection() {
 
             <div className="featured-left">
 
-                {article.featured.map((articles) => (
+                {article.featured.map((article) => (
 
                     <LargeArticleCard 
 
-                        key={articles.id}
-                        category={articles.category}
-                        title={articles.title}
-                        author={articles.author}
-                        image={articles.image}
+                        key={article.id}
+                        article={article}
 
                     />
 

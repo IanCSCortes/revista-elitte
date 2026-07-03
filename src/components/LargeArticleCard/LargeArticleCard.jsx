@@ -1,30 +1,25 @@
 import "./LargeArticleCard.css";
 
-function LargeArticleCard(
-   {category,
-    title,
-    author,
-    image}
-) {
+function LargeArticleCard({ article }) {
     return(
 
         <article className="large-card">
 
             <img
-                src={image}
-                alt="Matéria"
+                src={article.image}
+                alt={article.title}
             />
 
             <span className="large-card-category">
-                {category}
+                {article.category}
             </span>
 
             <h3 className="large-card-title">
-                {title}
+                {article.title}
             </h3>
 
             <span className="large-card-author">
-                por {author}
+                por {article.author}
             </span>
 
         </article>
