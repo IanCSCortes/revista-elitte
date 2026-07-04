@@ -1,7 +1,12 @@
+
 .header {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 0;
+
+    width: 100%;
+    background: #111;
+
+}
+
+.header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,6 +37,12 @@
     border: none;
     cursor: pointer;
     font-size: 1.8rem;
+}
+
+.logo-header img {
+
+    width: 260px;
+
 }
 
 

@@ -1,4 +1,5 @@
 import "./Footer.css";
+import Logo from "../../assets/images/logo-elitte-branco.webp"
 
 function Footer() {
     return(
@@ -7,14 +8,18 @@ function Footer() {
 
             <div className="footer-container">
 
-                <h2>Revista Ellite</h2>
+                <img className="logo-footer" src={Logo} alt="Logo elitte" />
 
                 <p>
-                    Moda • Negócios • Cultura • Lifestyle
+                    A revista que conta o Sul de Minas. 
+                </p>
+
+                <p>
+                    Desde 1999, em Lavras.
                 </p>
                 
                 <span>
-                    © 2026 Revista Elitte. Todos os direitos reservados.
+                    © 2026 Editora & Revista Elitte Ltda.
                 </span>
 
             </div>

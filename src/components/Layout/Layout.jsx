@@ -10,6 +10,7 @@ function Layout ({ children }) {
         <div className="layout">
 
             <Header />
+            
             <Navbar />
 
             <main>
