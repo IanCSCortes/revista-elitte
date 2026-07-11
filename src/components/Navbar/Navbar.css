@@ -1,4 +1,4 @@
-nav {
+.navbar {
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -8,13 +8,41 @@ nav {
 
 }
 
-nav a {
+.navbar a {
+
+    position: relative;
+
     text-decoration: none;
     color: #222;
     font-size: .9rem;
     text-transform: uppercase;
 }
 
-nav a:hover {
+.navbar a:hover {
     color: #666;
+}
+
+.navbar a::after {
+
+    content:"";
+
+    position: absolute;
+
+    left: 50%;
+    bottom: -6px;
+
+    width: 0;
+    height: 2px;
+
+    background: black;
+
+    transition: .3s ease;
+
+}
+
+.navbar a:hover::after {
+
+    width: 100%;
+    left: 0;
+
 }
