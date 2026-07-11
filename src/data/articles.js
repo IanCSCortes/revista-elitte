@@ -1,7 +1,7 @@
-import hero from "../assets/images/hero.jpg";
-import cafe from "../assets/images/cafe.jpg";
-import beleza from "../assets/images/beleza.jpg";
-import negocios from "../assets/images/negocios.jpg";
+import hero from "../assets/images/imgside2.webp";
+import cafe from "../assets/images/imgside1.webp";
+import beleza from "../assets/images/imgteste2.webp";
+import negocios from "../assets/images/imgteste.webp";
 
 
 const articles = {
@@ -12,8 +12,8 @@ const articles = {
 
             id: 1,
             category: "NEGÓCIOS",
-            title: "Como a Inteligência Artificial está mudando o mercado",
-            author: "Ian Cortes",
+            title: "José Roberto Sales: memória, história e identidade de Varginha",
+            author: "Revista Elitte",
             image: negocios
 
         },
@@ -22,7 +22,7 @@ const articles = {
 
             id: 2,
             category: "TECNOLOGIA",
-            title: "React continua dominando o mercado Front-End",
+            title: "IPD: uma história que atravessa gerações cuidando da vida",
             author: "Revista Elitte",
             image: beleza
 
@@ -35,8 +35,8 @@ const articles = {
         {
 
             id: 3,
-            category: "LIFESTYLE",
-            title: "5 hábitos para aumentar sua produtividade",
+            category: "CIDADE",
+            title: "Inaugurada a nova Cafeteria A Caprichosa: uma experiência única",
             author: "Natália Viana",
             image: cafe
 
@@ -45,8 +45,8 @@ const articles = {
         {
 
             id: 4,
-            category: "NEGÓCIOS",
-            title: "Empresas brasileiras investem cada vez mais em IA",
+            category: "DESTAQUE",
+            title: "Um novo olhar para a Harmonização Facial!",
             author: "Revista Elitte",
             image: hero
 

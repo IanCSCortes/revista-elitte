@@ -1,5 +1,7 @@
 import "./Hero.css";
 
+import img from "../../assets/images/imgteste3.webp"
+
 function Hero() {
     return (
         <section className="hero">
@@ -11,12 +13,13 @@ function Hero() {
                 </span>
 
                 <h2>
-                    Como a IA está transformando o mercado brasileiro
+                Prêmio Os Mais Influentes de 2024.
                 </h2>
 
                 <p>
-                    Uma análise sobre como pequenas empresas estão utilizando Inteligência
-                    Artificial para crescer.
+                Reconhecendo a liderança e a inspiração na sociedade lavrense Em mais um ano de celebração,
+                 a Revista Elitte realizou no dia 26 de outubro, no Lavras Hall, a tradicional premiação 
+                 “Os Mais Influentes do Ano”, reunindo..
                 </p>
 
                 <button>
@@ -28,7 +31,7 @@ function Hero() {
             <div className="hero-image">
 
                 <img 
-                src="http://picsum.photos/700/500"
+                src={img}
                 alt="Imagem destaque"
                 />
 

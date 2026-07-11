@@ -46,5 +46,44 @@
 
 }
 
+.icon-button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color .25s ease,
+    border-color .25s ease,
+    transform .2s ease,
+    box-shadow .25s ease;
+    
+    border: 1px solid rgb(255,255,255,.15);
+
+}
+
+.icon-button:hover {
+
+background: rgba(255,255,255,.08);
+transform: scale(1.03);
+border-color: rgba(255,255,255,.35);
+box-shadow: 0 0 12px rgba(255,255,255,.08);
+
+}
+
+.icon-button svg {
+
+    width: 22px;
+    height: 22px;
+
+}
+
 
 
