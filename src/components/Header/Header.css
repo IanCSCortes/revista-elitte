@@ -15,39 +15,6 @@
 
 }
 
-/*.logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.logo h1 {
-    font-size: 3.5rem;
-    font-weight: 300;
-    letter-spacing: 4px;
-    margin: 0;
-}
-
-.logo span {
-    color: #777;
-    font-size: .8rem;
-    letter-spacing: 3px;
-    margin-top: 5px;
-}
-
-.logo-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1.8rem;
-}
-
-.logo-header img {
-
-    width: 260px;
-
-}*/
-
 .icon-button {
 
     display: inline-flex;
@@ -92,21 +59,55 @@
 
 }
 
-/*.icon-button:hover {
+.menu-button {
 
-background: rgba(255,255,255,.08);
-transform: scale(1.03);
-border-color: rgba(255,255,255,.35);
-box-shadow: 0 0 12px rgba(255,255,255,.08);
+    justify-self: start;
 
 }
 
-.icon-button svg {
+@media (max-width: 600px) {
 
-    width: 22px;
-    height: 22px;
+    .header-content {
 
-}*/
+        min-height: 96px;
+        grid-template-columns: 40px minmax(0, 1fr) 40px;
 
+    }
+
+    .icon-button {
+
+        padding: 6px;
+        font-size: 1.45rem;
+
+    }
+
+    .logo {
+
+        gap: 6px;
+        min-width: 0;
+
+    }
+
+    .logo-header {
+
+        width: 128px;
+
+    }
+
+    .logo-header img {
+
+        width: 128px;
+
+    }
+
+    .logo span {
+
+        font-size: 0.5rem;
+        letter-spacing: 0.09em;
+        white-space: nowrap;
+
+    }
+
+}
 
 
