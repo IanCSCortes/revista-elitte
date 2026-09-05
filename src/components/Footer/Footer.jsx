@@ -17,6 +17,14 @@ function Footer() {
                 <p>
                     Desde 1999, em Lavras.
                 </p>
+
+                <nav className="footer-links" aria-label="Link do rodapé">
+                    <a href="#">A Revista</a>
+                    <a href="#">Leia Online</a>
+                    <a href="#">Elitte Podcast</a>
+                    <a href="#">Eventos</a>
+                    <a href="#">Contato</a>
+                </nav>
                 
                 <span>
                     © 2026 Editora & Revista Elitte Ltda.
