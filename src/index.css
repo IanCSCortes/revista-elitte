@@ -1,11 +1,41 @@
+:root {
+
+    font-family: Arial, sans-serif;
+    color: #161616;
+    background: #fff;
+
+}
+
+* {
+
+    box-sizing: border-box;
+
+}
+
 body {
+
     margin: 0;
+    background: #fff;
+
+}
+
+a {
+
+    color: inherit;
+    text-decoration: none;
+
+}
+
+img {
+
+    display: block;
+    max-width: 100%;
+
 }
 
 .container {
 
-    max-width: 1200px;
+    width: min(1200px, calc(100% - 40px));
     margin: 0 auto;
-    padding: 25px 20px;
 
 }
